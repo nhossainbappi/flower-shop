@@ -41,6 +41,11 @@
 
 }
 
+
+.header-part{
+  height: 515px;
+}
+
 .header-part {
   display: flex;
   background-color: rgba(229, 84, 115, 0.1);
