@@ -232,3 +232,54 @@ height: 420px;
 flex-shrink: 0;
 margin-right: 40px;
 }
+
+
+
+/* social-part */
+
+.social-parts{
+    text-align: center;
+    margin-top: 30px;
+   
+  
+
+}
+.social-parts h1{
+color: #272727;
+text-align: center;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+   
+  
+
+}
+
+.social-parts p{
+    display: flex;
+
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-top: 10px;
+
+}
+
+
+.social-part{
+    display: flex;
+    padding: 60px;
+}
+.social img{
+    width: 242px;
+height: 296px;
+margin-left: 50px;
+
+}
