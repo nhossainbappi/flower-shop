@@ -4,6 +4,43 @@
   font-family: sans-serif;
 }
 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111010;
+   
+    padding: 20px;
+}
+
+.logo{
+    color: aliceblue;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.loos{
+    color: #E55473;
+}
+
+.nav-bar{
+    display: flex;
+    margin-right: 70px;
+}
+.nav-bar li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-right: 10px;
+}
+.nav-bar li:hover{
+    color: #E55473;
+
+}
+
 .header-part {
   display: flex;
   background-color: rgba(229, 84, 115, 0.1);
@@ -328,12 +365,14 @@ margin-left: 50px;
 }
 .input{
     width: 500px;
-height: 34px;
+height: 24px;
 margin-top: 10px;
 border: 2px solid #E55473;
 
 border-radius: 5px;
 background: #FFF;
+padding: 10px;
+margin-left: 50px;
 }
 .latest{
     padding: 120px;
